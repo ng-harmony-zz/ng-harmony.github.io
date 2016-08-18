@@ -1,0 +1,39 @@
+{
+  "name": "ng-harmony",
+  "version": "0.0.1",
+  "description": "Ng-Harmony Interactive Docs",
+  "main": "app/src/app.js",
+  "author": {
+    "name": "Johannes Neugschwentner",
+    "email": "johannes.neugschwentner@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joehannes/ng-harmony.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joehannes/ng-harmony/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve app/ --port 8080",
+    "build": "jspm bundle-sfx app/src/app dist/app.min.js --minify --inject"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/joehannes/ng-harmony",
+  "devDependencies": {
+    "serve": "^1.4.0"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "."
+    },
+    "configFile": "system.config.js",
+    "dependencies": {},
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.35",
+      "babel-runtime": "npm:babel-runtime@^5.8.35",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}

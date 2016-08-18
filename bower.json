@@ -1,0 +1,30 @@
+{
+  "name": "ng-harmony",
+  "description": "Ng-Harmony Interactive Docs",
+  "main": "app/src/app.js",
+  "authors": [
+    "Johannes Neugschwentner"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "ng-harmony",
+    "angular",
+    "jspm"
+  ],
+  "homepage": "https://github.com/joehannes/ng-harmony",
+  "moduleType": [
+    "es6"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/src/lib/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "todomvc-app-css": "^2.0.4",
+    "todomvc-common": "^1.0.2"
+  }
+}
